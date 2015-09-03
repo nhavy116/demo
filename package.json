@@ -1,0 +1,39 @@
+{
+  "name": "wp-theme",
+  "version": "1.0.0",
+  "description": "wordpress-theme-dev",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.officience.com:myngoc-vuong/wp-theme-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-htmlsplit": "^1.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-jsbeautifier": "*",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "nodemon": "^1.4.1"
+  },
+  "dependencies": {
+    "consolidate": "^0.13.1",
+    "express": "^4.13.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-rename": "^1.2.2",
+    "hamljs": "^0.6.2",
+    "hogan-express": "^0.5.2",
+    "hogan.js": "^3.0.2",
+    "jade": "^1.11.0",
+    "merge-stream": "^1.0.0"
+  }
+}
